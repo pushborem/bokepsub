@@ -144,14 +144,10 @@ export default async function Video({ params }: PageProps) {
                                     Download
                                 </Button>
                             </Link>
-                        </div>
-                        <div className="grid grid-cols-2 gap-2 mt-8 md:grid-cols-3 lg:grid-cols-2 lg:ml-4 lg:my-4">
                             <CopyButton className="bg-secondary lg:col-span-full">
                                 <Share1Icon className="size-4 me-1 mb-0.5"></Share1Icon>
                                 Share
                             </CopyButton>
-                        </div>
-                         <div className="grid grid-cols-2 gap-2 mt-8 md:grid-cols-3 lg:grid-cols-2 lg:ml-4 lg:my-4">
                            <LikeButton className="lg:col-span-full" useButton={true} file={file} >
                                 Like
                             </LikeButton>
