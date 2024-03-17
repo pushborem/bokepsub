@@ -5,4 +5,4 @@ Disallow:
 # Allow all crawlers
 User-agent: *
 Allow: /
-Sitemap: https://bokeptube.pages.dev/sitemap.xml
+Sitemap: https://bokepsub.pages.dev/sitemap.xml
